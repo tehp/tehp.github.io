@@ -7,14 +7,20 @@ html {
 }
 
 h1 { 
-  font-family: 'Metrophobic', Arial, serif; 
+  font-family: 'Open Sans Condensed', Arial, serif;
   font-weight: 400; 
   color: white;
+}
+
+h4 {
+  font-family: 'Open Sans Condensed', Arial, serif;
+  font-weight: 350; 
+  color: white;	
 }
 
 .center {
 	text-align: center;
     margin: auto;
     width: 60%;
-    padding: 10px;
+    padding: 30px;
 }
