@@ -1,4 +1,4 @@
-html { 
+ { 
   background: url(bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -9,13 +9,13 @@ html {
 h1 { 
   font-family: 'Open Sans Condensed', Arial, serif;
   font-weight: 400; 
-  color: white;
+  color: black;
 }
 
 h4 {
   font-family: 'Open Sans Condensed', Arial, serif;
   font-weight: 350; 
-  color: white;	
+  color: black;	
 }
 
 .center {
@@ -23,4 +23,13 @@ h4 {
     margin: auto;
     width: 60%;
     padding: 30px;
+}
+
+.title {
+	margin-top: 30%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
 }
