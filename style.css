@@ -1,5 +1,5 @@
 html {
-    background-color: #F8E4DD;
+    background-color: #A9EEE6;
 }
 
 {
@@ -13,13 +13,13 @@ html {
 h1 {
     font-family: 'Open Sans Condensed', Arial, serif;
     font-weight: 700;
-    color: #75597D;
+    color: #625772;
 }
 
 h4 {
     font-family: 'Open Sans Condensed', Arial, serif;
     font-weight: 350;
-    color: #75597D;
+    color: #625772;
     font-size: 1em;
 }
 
@@ -44,6 +44,6 @@ h4 {
 a {
     padding-left: 3px;
     padding-right: 3px;
-    color: #D4A2BE;
+    color: #F38181;
     text-decoration: none;
 }
