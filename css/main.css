@@ -773,10 +773,10 @@ footer {
   background-color: #E14242; }
 
 .secondary-text-color {
-  color: #0D63A5; }
+  color: #00820c; }
 
 .secondary-bg-color {
-  background-color: #0D63A5; }
+  background-color: #00820c; }
 
 .success-text-color {
   color: #8D3434; }
@@ -1046,7 +1046,7 @@ blockquote {
   position: relative;
   padding-left: 20px;
   font-style: italic;
-  border-left: 5px solid #0D63A5; }
+  border-left: 5px solid #00820c; }
 
 a {
   text-decoration: none;
@@ -1474,7 +1474,7 @@ pre code {
     text-transform: lowercase; }
   .cover-card .author_job {
     display: block;
-    color: #0D63A5;
+    color: #00820c;
     font-size: 0.8em;
     font-weight: 700;
     text-transform: uppercase;
@@ -1498,9 +1498,9 @@ pre code {
       display: inline-block;
       margin-left: 1em; }
       .social-links ul li a.social-link-item {
-        color: #0D63A5; }
+        color: #00820c; }
         .social-links ul li a.social-link-item:hover, .social-links ul li a.social-link-item:focus {
-          color: #128be7; }
+          color: #00c913; }
 
 .nav-list {
   margin: 0;
@@ -1518,9 +1518,9 @@ pre code {
       margin-top: 1em;
       text-transform: lowercase;
       font-size: 85%;
-      color: #0D63A5; }
+      color: #00820c; }
       .nav-list .nav-item a:hover, .nav-list .nav-item a:focus {
-        color: #128be7; }
+        color: #00c913; }
 
 ul.tag-cloud {
   padding: 2em 0 3em;
@@ -1643,7 +1643,7 @@ section.post {
   font-size: 13px;
   font-weight: bold; }
   .post-meta .post-date {
-    color: #0D63A5; }
+    color: #00820c; }
   .post-meta .post-author {
     text-transform: uppercase;
     color: #F5A623; }
