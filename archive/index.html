@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Archive</title>
@@ -52,47 +52,32 @@
     </ul>
   </nav>
   <script type="text/javascript">
-  // based on https://stackoverflow.com/a/10300743/280842
-  function gen_mail_to_link(hs, subject) {
-    var lhs,rhs;
-    var p = hs.split('@');
-    lhs = p[0];
-    rhs = p[1];
-    document.write("<a class=\"social-link-item\" target=\"_blank\" href=\"mailto");
-    document.write(":" + lhs + "@");
-    document.write(rhs + "?subject=" + subject + "\"><i class=\"fa fa-fw fa-envelope\"></i><\/a>");
-  }
+    // based on https://stackoverflow.com/a/10300743/280842
+    function gen_mail_to_link(hs, subject) {
+        var lhs, rhs;
+        var p = hs.split('@');
+        lhs = p[0];
+        rhs = p[1];
+        document.write("<a class=\"social-link-item\" target=\"_blank\" href=\"mailto");
+        document.write(":" + lhs + "@");
+        document.write(rhs + "?subject=" + subject + "\"><i class=\"fa fa-fw fa-envelope\"></i><\/a>");
+    }
 </script>
 <div class="social-links">
-  <ul>
-    
-      <li>
-      <script>gen_mail_to_link('hello@maccraig.net', 'Hello from website');</script>
-      </li>
-    
-    <li><a href="https://twitter.com/mcknzcrg" class="social-link-item" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
-    
-    
-    <li><a href="https://linkedin.com/in/mcknzcrg" class="social-link-item" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>
-    
-    
-    <li><a href="https://instagram.com/mcknzcrg" class="social-link-item" target="_blank"><i class="fa fa-fw fa-instagram"></i></a></li>
-    
-    <li><a href="https://github.com/tehp" class="social-link-item" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>
-    
-    <li><a href="https://stackoverflow.com/users/4255272/tehp" class="social-link-item" target="_blank"><i class="fa fa-fw fa-stack-overflow"></i></a></li>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  </ul>
+    <ul>
+        
+        <li>
+            <script>
+                gen_mail_to_link('hello@maccraig.net', 'Hello from website');
+            </script>
+        </li>
+         
+        <li><a href="https://twitter.com/mcknzcrg" class="social-link-item" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>   
+        <li><a href="https://linkedin.com/in/mcknzcrg" class="social-link-item" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>   
+        <li><a href="https://instagram.com/mcknzcrg" class="social-link-item" target="_blank"><i class="fa fa-fw fa-instagram"></i></a></li>  
+        <li><a href="https://github.com/tehp" class="social-link-item" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>  
+        <li><a href="https://stackoverflow.com/users/4255272/tehp" class="social-link-item" target="_blank"><i class="fa fa-fw fa-stack-overflow"></i></a></li>           
+    </ul>
 </div>
 
 </div>
@@ -143,7 +128,7 @@
   
 
         <footer>
-    &copy; 2017 Mackenzie Craig. Made possible by <a href="https://jekyllrb.com/">Jekyll</a>
+    &copy; 2017 Mackenzie Craig. Made possible by <a href="http://jekyllrb.com/">Jekyll</a>
 </footer>
 
       </div>
