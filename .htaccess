@@ -1,7 +1,7 @@
 # Force HTTPS
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.example.com/$1 [R,L]
+RewriteRule ^(.*)$ https://www.maccraig.net/$1 [R,L]
 
 # JavaScript
 #   Normalize to standard type (it's sniffed in IE anyways)
