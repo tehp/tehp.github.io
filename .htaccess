@@ -42,7 +42,7 @@ AddType	application/x-shockwave-flash		swf
 AddType	text/vtt				vtt
 
 # --------------------------------------------------------------------------------------
-# Compression: http://code.google.com/speed/page-speed/docs/payload.html#GzipCompression
+# Compression: https://code.google.com/speed/page-speed/docs/payload.html#GzipCompression
 # --------------------------------------------------------------------------------------
 <IfModule mod_deflate.c>
 	AddOutputFilterByType DEFLATE application/atom+xml
@@ -108,7 +108,7 @@ AddType	text/vtt				vtt
 </IfModule>
 
 # -------------------------------------------------------------------------------------------------
-# Browser Caching: http://code.google.com/speed/page-speed/docs/caching.html#LeverageBrowserCaching
+# Browser Caching: https://code.google.com/speed/page-speed/docs/caching.html#LeverageBrowserCaching
 #
 # Google recommends specifying the following for all cacheable resources:
 #
