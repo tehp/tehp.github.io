@@ -68,7 +68,7 @@
         
         <li>
             <script>
-                gen_mail_to_link('hello@maccraig.net', 'Hello from website');
+                gen_mail_to_link('hello@maccraig.net', 'maccraig.net -');
             </script>
         </li>
          
@@ -122,13 +122,13 @@
 
 <p>The programming of TF2Stadium–as well as most other sites–is split into two major groups: “frontend” and “backend”.</p>
 
-<h5 id="the-frontend">The Frontend</h5>
+<!-- more -->
+
+<h1 id="the-frontend">The Frontend</h1>
 
 <p>Frontend is everything from the way the page looks to the experience of using the site. The frontend is made up of HTML, CSS, and Javascript, which together form the page that a user sees.</p>
 
 <p>TF2Stadium is a Single Page Application, which means the entire site and most of its assets are loaded during the initial load of the page. After that, navigation does not require page loads, which in turn make the site much more responsive. This isn’t free of downsides however, such as a longer initial loading time and the necessity of using Javascript.</p>
-
-<!--more-->
 
 <p>We are using AngularJS as a web framework. Web frameworks are used to remove or lessen the need for small and repetitive operations when writing code. It is a Javascript framework developed in-house by Google to produce dynamic web applications. Using AngularJS will result in cleaner and easier to maintain code. This is so we can focus on programming what we want our site to be without needing to create a coding structure first. AngularJS gives us that engine we can write on top of.</p>
 
@@ -138,7 +138,7 @@
 
 <p>The backend of TF2Stadium refers to everything that goes on server-side. The backend is written in the Go Programming Language. Go is developed and maintained by Google and the open source community. Recently it has seen increased adoption in the cloud with companies like Facebook, Dropbox, and Google using it in a variety of in-house projects. Go implements powerful facilities and an extensive standard library which provides a wide range of functionality.</p>
 
-<h6 id="for-anyone-interested-our-go-stack-uses">For anyone interested, our Go stack uses:</h6>
+<h2 id="for-anyone-interested-our-go-stack-uses">For anyone interested, our Go stack uses:</h2>
 
 <ul>
   <li>Gorilla Web Toolkit - URL routing and session cookies</li>
@@ -154,7 +154,7 @@
 
 <p>We have also written two Go libraries: PlayerStatsScraper and TF2RconWrapper. Pauling uses TF2RconWrapper, a library written by one of our team members which wraps around james4k’s rcon for TF2-specific operations and commands. Player stats (hours played, name, and country) are retrieved using PlayerStatsScraper.</p>
 
-<h5 id="the-link">The Link</h5>
+<h1 id="the-link">The Link</h1>
 
 <p>Both parts communicate with each other through a protocol called WebSocket. This allows for a two-way conversation between the Frontend and the Backend, meaning both of them can send requests to each other which are rapidly processed without the need of a refresh in the page.</p>
 
@@ -162,11 +162,11 @@
 
 <p>For more specific information, see <a href="https://github.com/TF2Stadium/Specifications/blob/master/Communication.md">https://github.com/TF2Stadium/Specifications/blob/master/Communication.md</a></p>
 
-<h5 id="final-thoughts">Final Thoughts</h5>
+<h1 id="final-thoughts">Final Thoughts</h1>
 
 <p>More detailed information about the site and its features will come in our later blog entries. Until then, stay tuned on Twitter and the Steam group.</p>
 
-<p>Want us to write a blog post about a specific topic? Tweet us, or send us suggestions on Steam or TFTV. We want to write about what the community is interested in!</p>
+<p>Want us to write a blog post about a specific topic? Tweet us, or send us suggestions on Steam or TFTV. We want to write about what the community is interested in! d in!</p>
 
   </article>
 </div>
