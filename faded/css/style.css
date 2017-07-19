@@ -228,14 +228,14 @@ body {
   max-width: 1140px; }
 
 a {
-  color: #e01616;
+  color: #E6B92E;
   cursor: pointer;
   background: transparent;
   text-decoration: none; }
   a:hover {
-    color: #ec3d3d; }
+    color: #ebc85c; }
   a:active {
-    color: #b21111; }
+    color: #c99e18; }
 
 .error {
   color: #ff0000 !important;
@@ -279,9 +279,9 @@ a {
 
 .button {
   color: #ffffff;
-  background: #e01616;
+  background: #E6B92E;
   height: 58px;
-  border: 2px solid #e01616;
+  border: 2px solid #E6B92E;
   font: 500 22px "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 21px;
   -moz-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
@@ -296,11 +296,11 @@ a {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
   .button:hover {
-    background: #ec3d3d;
-    border-color: #ec3d3d; }
+    background: #ebc85c;
+    border-color: #ebc85c; }
   .button:active {
-    background: #b21111;
-    border-color: #b21111; }
+    background: #c99e18;
+    border-color: #c99e18; }
 
 a.button {
   text-decoration: none;
@@ -497,7 +497,7 @@ footer {
     margin: 0 auto; }
 
 .comments {
-  background: #e01616;
+  background: #E6B92E;
   color: #ffffff;
   text-align: center;
   padding: 70px 0 60px; }
@@ -856,5 +856,28 @@ footer {
 .project-img-holder {
   width: 600px;
   margin: auto; }
+
+.prices {
+  background-color: black; }
+
+.price-item {
+  padding: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white; }
+
+.price-item-title {
+  color: #e6b92e;
+  font-size: 130%; }
+
+.price-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e6b92e; }
+
+.price-subhead {
+  font-size: 170%;
+  background-color: #e6b92e;
+  padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */

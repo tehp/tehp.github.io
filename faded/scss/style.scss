@@ -20,3 +20,33 @@
     width: 600px;
     margin: auto;
 }
+
+// Pricing table
+
+.prices {
+  background-color: black;
+}
+
+.price-item {
+  padding: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.price-item-title {
+  color: #e6b92e;
+  font-size: 130%;
+}
+
+.price-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e6b92e;
+}
+
+.price-subhead {
+  font-size: 170%;
+  background-color: #e6b92e;
+  padding: 10px;
+}
