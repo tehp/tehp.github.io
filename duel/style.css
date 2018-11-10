@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+.tooltip-inner {
+  padding: 15px;
+}
+
 footer {
   text-align: center;
   margin-right: 30%;
