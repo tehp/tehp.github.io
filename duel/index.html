@@ -31,10 +31,21 @@
     </div>
   </div>
   <footer>
+    <button type="button" class="btn btn-default" id="help" data-toggle="tooltip" data-placement="top" title="This is a party game. Each player is randomly assigned a character with a trait and an item. Argue that your character will win in a battle. Have fun with it."><a href="#">What is this?</a></button>&nbsp;
     <hr>
     <p>&copy; 2018 BSBois.</p>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
   <script src="index.js"></script>
+  <script>
+    $('#help').tooltip({
+      delay: {
+        show: 200,
+        hide: 100
+      }
+    });
+  </script>
 </body>
 
 </html>
