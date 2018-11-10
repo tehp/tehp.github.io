@@ -8,12 +8,12 @@ var db = fetch('https://spreadsheets.google.com/feeds/list/12qfu6ETrVQhDDvG1Fn4L
   })
   .then(function(db) {
     var entry = db.feed.entry;
-    for (i in entry) {
-      content = entry[i].content.$t
+    for (col in entry) {
+      content = entry[col].content.$t
       content = content.split(',')
 
       // characters
-      characters.push(entry[i].title.$t)
+      characters.push(entry[col].title.$t)
 
       // traits
       trait = content[0].replace('trait: ', '')
