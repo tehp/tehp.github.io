@@ -26,17 +26,29 @@ var db = fetch('https://spreadsheets.google.com/feeds/list/12qfu6ETrVQhDDvG1Fn4L
   })
   .then(function(response) {
     var p1 = []
-    p1[0] = characters[Math.floor(Math.random() * characters.length)]
-    p1[1] = traits[Math.floor(Math.random() * traits.length)]
-    p1[2] = items[Math.floor(Math.random() * items.length)]
+
+    characters_rand = Math.floor(Math.random() * characters.length)
+    p1[0] = characters[characters_rand]
+    characters.splice(characters_rand, 1);
+
+    traits_rand = Math.floor(Math.random() * traits.length)
+    p1[1] = traits[traits_rand]
+    traits.splice(traits_rand, 1)
+
+    items_rand = Math.floor(Math.random() * items.length)
+    p1[2] = items[items_rand]
+    items.splice(items_rand, 1)
 
     var p2 = []
-    p2[0] = characters[Math.floor(Math.random() * characters.length)]
-    p2[1] = traits[Math.floor(Math.random() * traits.length)]
-    p2[2] = items[Math.floor(Math.random() * items.length)]
 
-    console.log(p1)
-    console.log(p2)
+    characters_rand = Math.floor(Math.random() * characters.length)
+    p2[0] = characters[characters_rand]
+
+    traits_rand = Math.floor(Math.random() * traits.length)
+    p2[1] = traits[traits_rand]
+
+    items_rand = Math.floor(Math.random() * items.length)
+    p2[2] = items[items_rand]
 
     p1_str = p1[0] + " with " + p1[1] + " and " + p1[2]
     p2_str = p2[0] + " with " + p2[1] + " and " + p2[2]
