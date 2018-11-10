@@ -5,8 +5,15 @@
   text-align: center;
 }
 
+footer {
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%;
+  color: #eeeeee;
+}
+
 .player {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 /* ---- loading ---- */
