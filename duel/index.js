@@ -2,7 +2,7 @@ var characters = []
 var traits = []
 var items = []
 
-var db = fetch('https://spreadsheets.google.com/feeds/list/12qfu6ETrVQhDDvG1Fn4LNOvdvOeeq03krrsHdBfiv00/od6/public/basic?alt=json')
+var db = fetch('https://spreadsheets.google.com/feeds/list/12qfu6ETrVQhDDvG1Fn4LN=OvdvOeeq03krrsHdBfiv00/od6/public/basic?alt=json')
   .then(function(response) {
     return response.json()
   })
