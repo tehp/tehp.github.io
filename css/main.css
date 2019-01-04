@@ -1471,7 +1471,7 @@ pre code {
     display: block;
     color: #F36170;
     font-size: 1.75em;
-    text-transform: lowercase; }
+    text-transform: none; }
   .cover-card .author_job {
     display: block;
     color: #563b6f;
@@ -1486,7 +1486,7 @@ pre code {
     .cover-card {
       text-align: right;
       margin: 0 auto;
-      padding: 0 0px 80px; } }
+      padding: 0 0 80px; } }
 
 .social-links {
   margin-top: 0.5em; }
@@ -1499,7 +1499,7 @@ pre code {
       margin-left: 1em; }
       .social-links ul li a.social-link-item {
         color: #563b6f; }
-        .social-links ul li a.social-link-item:hover, .social-links ul li a.social-link-item:focus {
+        .social-links ul li a.social-link-item:focus, .social-links ul li a.social-link-item:hover {
           color: #7a549e; }
 
 .nav-list {
@@ -1519,7 +1519,7 @@ pre code {
       text-transform: lowercase;
       font-size: 85%;
       color: #563b6f; }
-      .nav-list .nav-item a:hover, .nav-list .nav-item a:focus {
+      .nav-list .nav-item a:focus, .nav-list .nav-item a:hover {
         color: #7a549e; }
 
 ul.tag-cloud {
