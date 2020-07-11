@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Archive</title>
-    <meta name="description" content="Personal website/blog">
+    <title>Genome Comparison and Alignment</title>
+    <meta name="description" content="In the early months of the COVID-19 pandemic I worked on a tool for comparing genomes in C++. The project is named “vdiff”, after virus diff (like the unix c...">
 
     <!-- CSS files -->
     <link rel="stylesheet" href="https://maccraig.net/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maccraig.net/css/main.css">
 
-    <link rel="canonical" href="https://maccraig.net/archive/">
+    <link rel="canonical" href="https://maccraig.net/posts/2020-04/vdiff">
     <link rel="alternate" type="application/rss+xml" title="Mackenzie Craig" href="https://maccraig.net /feed.xml " />
 
     <!-- Icons -->
@@ -88,139 +88,75 @@
     </div>
     <div class="col s12 m9">
       <div class="post-listing">
-          <div id="page">
-    <header class="page-header">
-      <h2>Archive</h2>
-    </header>
+        <a class="btn" href= "https://maccraig.net/" >
+  Home
+</a>
 
-    <article class="page-content">
-      <div class="archive">
-  <div class="timeline" id="timeline">
-    
-    
-    <div class="archive-title">
-      <h4 class="archive-year">2020</h4>
-    </div>
 
-    <ul>
-    
-    <li>
-      <div style="width:60px;float:left;">Apr 21</div> <a href="https://maccraig.net/posts/2020-04/vdiff">Genome Comparison and Alignment</a></li>
-    
-    
-      
-      
-    
-    </ul>
-    <div class="archive-title">
-      <h4 class="archive-year">2019</h4>
-    </div>
 
-    <ul>
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Dec 15</div> <a href="https://maccraig.net/posts/2019-12/Spectrograms">Spectrograms in C++</a></li>
-    
-    
-      
-      
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Apr 23</div> <a href="https://maccraig.net/posts/2019-04/Pacific-Crest-Trail">Pacific Crest Trail</a></li>
-    
-    
-      
-      
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Feb 16</div> <a href="https://maccraig.net/posts/2019-02/Dance-Pants">Dance Pants</a></li>
-    
-    
-      
-      
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Jan 3</div> <a href="https://maccraig.net/posts/2019-01/Backpacking-Gear">Backpacking Gear</a></li>
-    
-    
-      
-      
-    
-    </ul>
-    <div class="archive-title">
-      <h4 class="archive-year">2018</h4>
-    </div>
+<div id="post">
+  <header class="post-header">
+    <h1 title="Genome Comparison and Alignment">Genome Comparison and Alignment</h1>
+    <span class="post-meta">
+      <span class="post-date">
+        21 APR 2020
+      </span>
+      •
+      <span class="read-time" title="Estimated read time">
+  
+  
+    1 min read
+  
+</span>
 
-    <ul>
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Nov 9</div> <a href="https://maccraig.net/posts/2018-11/Dennett-Lake">Dennett Lake</a></li>
-    
-    
-      
-      
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Aug 20</div> <a href="https://maccraig.net/posts/2018-08/Rospe-Trail">The Rospe Trail</a></li>
-    
-    
-      
-      
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Aug 8</div> <a href="https://maccraig.net/posts/2018-08/Burke-Mountain">Burke Mountain Trails</a></li>
-    
-    
-      
-      
-    
-    </ul>
-    <div class="archive-title">
-      <h4 class="archive-year">2017</h4>
-    </div>
+    </span>
 
-    <ul>
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Jun 28</div> <a href="https://maccraig.net/posts/2017-06/ico-concerns">ICO Concerns</a></li>
-    
-    
-      
-      
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Feb 27</div> <a href="https://maccraig.net/posts/2017-02/tf2-stadium-tech-stack">TF2 Stadium Tech Stack</a></li>
-    
-    
-      
-      
-    
-    
-    <li>
-      <div style="width:60px;float:left;">Feb 26</div> <a href="https://maccraig.net/posts/2017-02/hello-world">Hello World!</a></li>
-    
-    </ul>
+  </header>
 
-  </div>
+  <article class="post-content">
+    <p>In the early months of the COVID-19 pandemic I worked on a tool for comparing genomes in C++. The project is named “vdiff”, after virus diff (like the unix command line tool “diff”).</p>
 
+<p>The vdiff command line tool provides information about two genomes, including the number of matching strings within two genomes, and the percentage of the genomes that are matching when aligned. This information is output via command line logging, as well as optional CSV match output for graphing.</p>
+
+<!-- more -->
+
+<p>My project <a href="https://github.com/tehp/vdiff">vdiff</a> is available on GitHub.</p>
+
+<p>Give it a shot yourself if you are interested the subject. The source code comes with some sample genomes that you can use.</p>
+
+<p><img src="/img/vdiff.png" alt="vdiff" /></p>
+
+<p>This is an example of graphing the CSV output of comparing a SARS genome (x-axis), and a COVID-19 genome (y-axis). More points along the line x=y represents more similarities.</p>
+
+<p>More information and instructions are available in this video:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AkUEvy7Igu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  </article>
 </div>
 
-    </article>
+<div class="share-buttons">
+  <h6>Share on: </h6>
+  <ul>
+    <li>
+      <a href="https://twitter.com/intent/tweet?text=https://maccraig.net/posts/2020-04/vdiff" class="twitter btn" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://maccraig.net/posts/2020-04/vdiff" class="facebook btn" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+    </li>
+    <li>
+      <a href="https://plus.google.com/share?url=https://maccraig.net/posts/2020-04/vdiff" class="google-plus btn" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+    </li>
+    <li>
+      <a href="https://news.ycombinator.com/submitlink?u=https://maccraig.net/posts/2020-04/vdiff" class="hacker-news btn" title="Share on Hacker News"><i class="fa fa-hacker-news"></i><span> Hacker News</span></a>
+    </li>
+    <li>
+      <a href="https://www.reddit.com/submit?url=https://maccraig.net/posts/2020-04/vdiff" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
+    </li>
+  </ul>
+</div><!-- end share-buttons -->
 
 
-  </div><!-- end page content -->
-
-
-  
 
         <footer>
     &copy; 2020 Mackenzie Craig. Made possible by <a href="http://jekyllrb.com/">Jekyll</a>
